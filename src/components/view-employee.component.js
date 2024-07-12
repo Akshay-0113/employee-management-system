@@ -8,6 +8,8 @@ import axios from "axios";
 import EmpDisp
 	from "./EmpDisp";
 
+// due to lack of time i duplicated the add employee form and made certain changes to give view employee page. it can be improved
+
 const ViewEmployee = (props) => {
 	const {empId} = useParams();
 	const history = useNavigate();
