@@ -10,15 +10,37 @@ body h3 {
 	color: #ffffff;
 }
 
-.form-wrapper,
-.table-wrapper {
-	max-width: 500px;
+.form-wrapper, .table-wrapper2 {
+	max-width: 700px;
 	margin: 0 auto;
 }
 
-.table-wrapper {
-	max-width: 700px;
+.table-wrapper{
+	min-width: 700px;
+	margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+	.table-wrapper {
+		min-width: none;
+	}
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 10px;
+}
+
+.table td:first-child {
+    width: 150px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+
 
 .view-link {
 	text-decoration: none;
@@ -75,3 +97,4 @@ input::-webkit-inner-spin-button {
 input[type=number] {
 	-moz-appearance: textfield;
 }
+

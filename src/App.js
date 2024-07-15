@@ -70,7 +70,6 @@ const App = () => {
 										element={<EmployeeList/>} />
 									<Route path="/view-employee/:empId"
 										element={<ViewEmployee/>} />
-
 								</Routes>
 							</div>
 						</Col>
